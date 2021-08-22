@@ -1,0 +1,38 @@
+.article1 {
+  background: linear-gradient(
+    45deg,
+    rgba(214, 214, 214, 1) 0%,
+    rgb(0, 0, 0) 100%
+  );
+}
+
+.article-wrap {
+  padding-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 5%;
+  background-color: white;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.article-title {
+  font-size: 20pt;
+}
+
+.article-author {
+  font-size: 15pt;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.article-published {
+  font-size: 10pt;
+  margin-left: 5%;
+}
+
+.article-edited {
+  font-size: 10pt;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
