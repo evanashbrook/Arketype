@@ -1,4 +1,6 @@
 import React from 'react'
+import Block0 from '../Block0'
+import Block0m from '../Block0m'
 
 /**
 * @author
@@ -7,7 +9,9 @@ import React from 'react'
 
 const Appm = (props) => {
   return(
-    <div>Appm</div>
+    <div className="block0div">
+        <Block0m />
+        </div>
    )
 
  }

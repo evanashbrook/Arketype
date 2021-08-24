@@ -1,0 +1,15 @@
+.sliderimg-m {
+  width: 100%;
+  height: 50vw;
+  object-fit: contain;
+}
+
+.c1-m {
+  margin-top: 15%;
+  padding: 0%;
+}
+
+.c2-m {
+  margin: 0%;
+  padding: 0%;
+}

@@ -25,9 +25,6 @@ const Appd = (props) => {
         <div className="block0div">
         <Block0 />
         </div>
-        <div className='block1div'>
-            <Block1 />
-        </div>
     </section>
    )
 

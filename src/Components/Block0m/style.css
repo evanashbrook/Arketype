@@ -1,0 +1,239 @@
+.title-m {
+  width: 20%;
+  position: relative;
+  z-index: inherit;
+  text-align: left;
+  margin-left: 16%;
+  margin-top: 3%;
+  margin-bottom: 2.5%;
+}
+
+.gallery-m {
+  width: 100%;
+  margin: 0%;
+  position: absolute;
+  top: 0%;
+  z-index: 998;
+}
+
+.intro-block-m {
+  width: 55%;
+  margin-left: 5%;
+  margin-top: 20%;
+  background-color: rgb(155, 155, 155);
+  position: relative;
+  z-index: 999;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 0.5%;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.watermark-m {
+  margin-top: 0%;
+  color: rgb(48, 48, 48);
+  font-family: "Inter", sans-serif;
+  font-size: 10pt;
+}
+
+.site-title-m {
+  font-size: 20pt;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  align-items: center;
+  position: relative;
+  z-index: 999;
+}
+
+.lines-m {
+  width: 110%;
+  position: absolute;
+  margin-top: 30%;
+  margin-left: -5%;
+  z-index: 998;
+}
+
+.linesleft-m {
+  width: 100%;
+  position: absolute;
+  top: -5%;
+  left: 30%;
+  z-index: 997;
+}
+
+.linestop-m {
+  width: 120%;
+  position: absolute;
+  top: 25%;
+  right: -5%;
+  z-index: 997;
+}
+
+.lines2-m {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 998;
+}
+
+.lines3-m {
+  position: absolute;
+  width: 120%;
+  top: 120%;
+  left: -5%;
+  z-index: 998;
+}
+
+.diamond-m {
+  width: 10%;
+  text-align: center;
+  left: 5%;
+  top: 0.5%;
+  z-index: 999;
+  position: absolute;
+}
+
+.b1title-m {
+  width: 15%;
+  margin-left: 15%;
+  margin-top: 30%;
+  position: relative;
+  z-index: 999;
+  margin-bottom: 0%;
+}
+
+.articlesdiv-m {
+  margin-top: 4%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  z-index: 999;
+  background-color: rgb(155, 155, 155);
+  border-radius: 15px;
+  align-items: flex-start;
+}
+
+.philosophy-articles-m {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.movie-articles-m {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.ma1-title-m {
+  text-decoration: none;
+  text-decoration-line: none;
+  font-size: 12pt;
+  color: rgb(0, 0, 0);
+  font-family: "Kanit", sans-serif;
+}
+
+.ma1-author-m {
+  text-decoration: none;
+  text-decoration-line: none;
+  font-size: 10pt;
+  color: rgb(0, 0, 0);
+  font-family: "Kanit", sans-serif;
+}
+
+.ma2-title-m {
+  text-decoration: none;
+  font-size: 12pt;
+  color: rgb(0, 0, 0);
+  font-family: "Kanit", sans-serif;
+}
+
+.ma2-author-m {
+  text-decoration: none;
+  text-decoration-line: none;
+  font-size: 10pt;
+  color: rgb(0, 0, 0);
+  font-family: "Kanit", sans-serif;
+}
+
+.pa1-title-m {
+  text-decoration: none;
+  font-size: 12pt;
+  color: rgb(0, 0, 0);
+  font-family: "Kanit", sans-serif;
+}
+
+.pa1-author-m {
+  text-decoration: none;
+  font-size: 10pt;
+  color: rgb(0, 0, 0);
+  font-family: "Kanit", sans-serif;
+}
+
+.pa2-title-m {
+  text-decoration: none;
+  font-size: 12pt;
+  color: rgb(0, 0, 0);
+  font-family: "Kanit", sans-serif;
+}
+
+.pa2-author-m {
+  text-decoration: none;
+  font-size: 10pt;
+  color: rgb(0, 0, 0);
+  font-family: "Kanit", sans-serif;
+}
+
+.pa3-title-m {
+  text-decoration: none;
+  font-size: 12pt;
+  color: rgb(0, 0, 0);
+  font-family: "Kanit", sans-serif;
+}
+
+.pa3-author-m {
+  text-decoration: none;
+  font-size: 10pt;
+  color: rgb(0, 0, 0);
+  font-family: "Kanit", sans-serif;
+}
+
+.pa4-title-m {
+  text-decoration: none;
+  font-size: 12pt;
+  color: rgb(0, 0, 0);
+  font-family: "Kanit", sans-serif;
+}
+
+.pa4-author-m {
+  text-decoration: none;
+  font-size: 10pt;
+  color: rgb(0, 0, 0);
+  font-family: "Kanit", sans-serif;
+}
+
+.phi-title-m {
+  width: 50%;
+  text-align: left;
+  font-family: "Kanit", sans-serif;
+  font-size: 15pt;
+}
+
+.movies-title-m {
+  width: 50%;
+  text-align: left;
+  font-family: "Kanit", sans-serif;
+  font-size: 15pt;
+}

@@ -23,8 +23,8 @@ function App() {
         </div>}
         {isPortrait && <div className='routes'>
         <Route path='/' exact component={Appm} />
-        <Route path='/movies' component={Movies} />
-        <Route path='/philosophy' component={Philosophy} />
+        <Route path='/movies' component={MoviesRouter} />
+        <Route path='/philosophy' component={PhilosophyRouter} />
         </div>}
       </Router>
     </section>

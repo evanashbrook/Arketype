@@ -15,21 +15,11 @@ import p11 from '../../Assets/Parasite.jpg'
 import p12 from '../../Assets/BR2049-2.webp'
 import './style.css'
 
-const ImageGal = (props) => {
+const ImageGal2 = (props) => {
     return(
         <section>
             <div className='c1'>
-            <AliceCarousel autoPlay autoPlayStrategy="none" autoPlayInterval="0" animationDuration='8000' animationEasingFunction='linear' infinite='true' disableButtonsControls='true' disableDotsControls='true'>
-      <img src={p1} className="sliderimg"/>
-      <img src={p2} className="sliderimg"/>
-      <img src={p3} className="sliderimg"/>
-      <img src={p4} className="sliderimg"/>
-      <img src={p5} className="sliderimg"/>
-      <img src={p6} className="sliderimg"/>
-        </AliceCarousel>
-            </div>
-            <div className='c2'>
-            <AliceCarousel autoPlay autoPlayStrategy="none" autoPlayInterval="0" autoPlayDirection='rtl' animationDuration='8000' animationEasingFunction='linear' infinite='true' disableButtonsControls='true' disableDotsControls='true'>
+            <AliceCarousel autoPlay autoPlayInterval="0" autoPlayDirection='rtl' animationDuration='10000' animationEasingFunction='linear' infinite='true' disableButtonsControls='true' disableDotsControls='true'>
       <img src={p7} className="sliderimg"/>
       <img src={p8} className="sliderimg"/>
       <img src={p9} className="sliderimg"/>
@@ -38,8 +28,18 @@ const ImageGal = (props) => {
       <img src={p12} className="sliderimg"/>
         </AliceCarousel>
             </div>
+            <div className='c2'>
+            <AliceCarousel autoPlay autoPlayInterval="0" animationDuration='10000' animationEasingFunction='linear' infinite='true' disableButtonsControls='true' disableDotsControls='true'>
+      <img src={p1} className="sliderimg"/>
+      <img src={p2} className="sliderimg"/>
+      <img src={p3} className="sliderimg"/>
+      <img src={p4} className="sliderimg"/>
+      <img src={p5} className="sliderimg"/>
+      <img src={p6} className="sliderimg"/>
+        </AliceCarousel>
+            </div>
         </section>
         
     )
 }
-export default ImageGal
+export default ImageGal2
