@@ -9,6 +9,11 @@ import Philosophy from './Components/Philosophy';
 import Movies from './Components/Movies';
 import MoviesRouter from './Components/MoviesRouter';
 import PhilosophyRouter from './Components/PhilosophyRouter';
+import ReactGA from 'react-ga'
+import RouteChangeTracker from './Components/RouteChangeTracker';
+
+const TRACKING_ID = "UA-206071003-1";
+ReactGA.initialize(TRACKING_ID)
 
 function App() {
   const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
@@ -17,11 +22,13 @@ function App() {
     <section className='App'>
       <Router>
       {isLandscape && <div className='routes'>
+      <RouteChangeTracker />
         <Route path='/' exact component={Appd} />
         <Route path='/movies' component={MoviesRouter} />
         <Route path='/philosophy' component={PhilosophyRouter} />
         </div>}
         {isPortrait && <div className='routes'>
+        <RouteChangeTracker />
         <Route path='/' exact component={Appm} />
         <Route path='/movies' component={MoviesRouter} />
         <Route path='/philosophy' component={PhilosophyRouter} />
